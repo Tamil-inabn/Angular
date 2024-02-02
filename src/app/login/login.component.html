@@ -1,0 +1,18 @@
+<div class="container" style="border: 2px solid #cbc9c9">
+    <form [formGroup]="AddData" (ngSubmit)="SaveData()">
+        <h2 style="font-family: TimesNewRoman;">Login</h2><hr>
+        <div class="form-group">
+            <label style="font-family: TimesNewRoman;"><b>User Name</b></label>
+            <input type="text" formControlName="Email" class="form-control" style="width:35%;" />
+        </div>
+        <br>
+        <div class="form-group">
+            <label style="font-family:TimesNewRoman;"><b>Password</b></label>
+            <input type="password" formControlName="Password" class="form-control" style="width:35%;" />
+        </div><br>
+        <button type="submit" class="btn btn-outline-primary">Submit</button>&nbsp;
+        <input type="reset" class="btn btn-outline-info">
+    </form>
+</div>
+
+
