@@ -79,17 +79,6 @@
           <div *ngIf="formdata.controls['address'].errors?.['required']">address is required</div>
         </div>
       </div><br>
-
-
-      <!-- <div class="form-group">
-        <label>Address</label>
-        <textarea class="form-control" formControlName="address"
-          [ngClass]="{'is-invalid':formdata.controls['address'].invalid && formdata.controls['address'].touched}"></textarea>
-        <div *ngIf="formdata.controls['address'].invalid && formdata.controls['address'].touched"
-          class="invalid-feedback">
-          <div *ngIf="formdata.controls['address'].errors?.['required']">address is required</div>
-        </div>
-      </div><br> -->
       <div class="d-flex justify-content-center">
         <button type="submit" class="btn btn-outline-primary">Add</button>
         <button type="reset" class="btn btn-outline-dark ms-2">Clear</button>
